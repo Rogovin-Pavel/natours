@@ -60,7 +60,7 @@ body {
 }
 
 .heading-primary {
-  color: orangered;
+  color: #fff;
   text-transform: uppercase;
   margin-bottom: 60px;
   backface-visibility: hidden;
