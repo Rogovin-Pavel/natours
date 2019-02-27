@@ -129,4 +129,31 @@
     }
   }
 
+  //BACK SIDE STYLING
+
+  &__cta {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+  }
+
+  &__price-box {
+    color: $color-white;
+    margin-bottom: 8rem;
+    text-align: center;
+  }
+
+  &__description {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+
+  &__value {
+    font-size: 6rem;
+    font-weight: 100;
+  }
+
 }

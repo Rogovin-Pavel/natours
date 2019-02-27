@@ -35,6 +35,15 @@
        background-color: $color-white;
     }
   }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+       background-color: $color-primary;
+    }
+  }
   
     
   &::after {
@@ -43,7 +52,6 @@
     height: 100%;
     width: 100%;
     border-radius: 10rem;
-    background-color: $color-white;
     position: absolute;
     top: 0;
     left: 0;
